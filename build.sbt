@@ -1,4 +1,5 @@
 val commonSettings = Seq(
+  updateOptions := updateOptions.value.withCachedResolution(true),
   scalaVersion := "2.12.1"
 )
 
